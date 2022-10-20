@@ -58,3 +58,7 @@ nav ul li a:hover {
 .active {
     background-color: #FFD188;
 }
+
+section {
+    background-color: #526610;
+}
