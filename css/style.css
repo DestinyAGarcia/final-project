@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color:#D5D5E3;
+    background-color:#FEF6FD;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     padding: 5px;
@@ -31,30 +31,29 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: wheat;
-
+  color: #858283;
 }
 
 header {
-    background-color:#944C3E;
+    background-color:#AD3100;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Kanit', sans-serif;
     font-size: 50px;
-    color: #FF9077;
+    color: #858283;
     text-align: center;
 }
 
 p {
   word-spacing: 5px;
   text-align: left;
-  color: #BDB19E;
+  color: #858283;
 }
 
 .logo {
-    height: 20px;
-    width: 20px;
+    height: 10px;
+    width: 10px;
     margin: auto;
     float: left;
 }
@@ -83,23 +82,24 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: #BDB19E;
+    color: #858283;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    color: #B37E2E;
+    color: #E6BEC2;
     border-bottom: 1px solid;
 }
 
 .active {
-    background-color: #FFD188;
+    background-color: #E67A6A;
 }
 
 section {
     text-align: center;
+    padding: 40px;
 }
 
 main {
@@ -116,7 +116,6 @@ image {
     max-height: 100%;
     float: right;
     padding: 15px;
-    margin: 0px 5px 5px 25px;
 }
 
 /* checkout form */
@@ -151,9 +150,9 @@ image {
   }
   
   .container {
-    background-color: #BDB19E;
+    background-color: #E6BEC2;
     padding: 5px 20px 15px 20px;
-    border: 1px solid #BDB19E;
+    border: 1px solid #E6BEC2;
     border-radius: 3px;
   }
   
@@ -161,13 +160,14 @@ image {
     width: 100%;
     margin-bottom: 20px;
     padding: 12px;
-    border: 1px solid #BDB19E;
+    border: 1px solid #E6BEC2;
     border-radius: 3px;
   }
   
   label {
     margin-bottom: 10px;
     display: block;
+    color: #858283;
   }
   
   .icon-container {
@@ -177,8 +177,8 @@ image {
   }
   
   .btn {
-    background-color: #70210B;
-    color: #F0E1C9;
+    background-color: #E04101;
+    color: #E6BEC2;
     padding: 12px;
     margin: 10px 0;
     border: none;
@@ -189,20 +189,20 @@ image {
   }
   
   .btn:hover {
-    background-color: #BD3813;
+    background-color: #8F3022;
   }
   
   a {
-    color: #170170;
+    color: #E04101;
   }
   
   hr {
-    border: 1px solid #F0E1C9;
+    border: 1px solid #E04101;
   }
   
   span.price {
     float: right;
-    color: grey;
+    color: #858283;
   }
   
   @media (max-width: 800px) {
@@ -220,8 +220,8 @@ image {
 
 footer {
   width: 100%;
-  height: 70px;
-  background-color: #944C3E;
+  height: 50px;
+  background-color: #AD3100;
 }
 
 .social-links {
